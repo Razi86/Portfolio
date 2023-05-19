@@ -41,3 +41,10 @@ h3 {
     background: var(--link);
     color: white;
 }
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 48px;
+        line-height: 1.5;
+    }
+}
