@@ -1,0 +1,43 @@
+html {
+    padding: 0;
+    margin: 0;
+    --primary-color: #2f2f2f;
+    --secondary-color: #6c6c6c;
+    --link: #6c63ff;
+    --border-radius: 5px;
+    color: var(--primary-color);
+}
+
+.title-h2 {
+    font-size: 48px;
+    margin: 45px 0 0px;
+}
+
+h1 {
+    font-size: 88px;
+    margin: 0;
+}
+
+h3 {
+    font-size: 28px;
+    margin: 10px 0 0;
+    color: var(--secondary-color);
+}
+
+.link-navigation {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-link {
+    padding: 20px;
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    color: var(--link);
+    border: 1px solid var(--link);
+}
+
+.contact-link {
+    background: var(--link);
+    color: white;
+}
